@@ -8,30 +8,24 @@ This repo is a curated collection of workflows, prompts, coding standards, and c
 
 Here is an overview of the main areas and folders in this repo:
 
-- **MCP/**
+- **[MCP/](MCP/README.md)**
   - *Purpose:* MCP server configurations, examples, and documentation.
   - *Contents:*
-    - `README.md`: Overview of MCP servers, installation guides, and usage.
+    - [`README.md`](MCP/README.md): Overview of MCP servers, installation guides, and usage.
   - **TODO:** Add more usage examples and advanced configuration scenarios.
 
-- **mdc/**
+- **[mdc/](mdc/README.md)**
   - *Purpose:* Coding standards, AI rules, and inspiration tables in `.mdc` format.
   - *Contents:*
     - `.mdc` files: Rules for naming, responsibility, comments, DRY, KISS/YAGNI, etc.
-    - `README.md`: Index of all rules and inspiration tables.
+    - [`README.md`](mdc/README.md): Index of all rules and inspiration tables.
   - **TODO:** Add more usage examples and expand the inspiration tables.
 
-- **need-to-look-into/**
+- **[need-to-look-into/](need-to-look-into/README.md)**
   - *Purpose:* A collection of ideas, prompts, and knowledge to be explored further.
   - *Contents:*
-    - `README.md`: Tables with ideas, links, and evaluations.
+    - [`README.md`](need-to-look-into/README.md): Tables with ideas, links, and evaluations.
   - **TODO:** Add more topics and categories, and update evaluations.
-
-- **.git/**
-  - *Purpose:* Version control (git metadata).
-  - *Contents:*
-    - Various git metadata files and folders.
-  - **TODO:** None – managed automatically by git.
 
 ## Connect with Me
 
