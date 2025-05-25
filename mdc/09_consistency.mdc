@@ -1,0 +1,17 @@
+---
+description: Emphasis on maintaining consistency throughout the codebase.
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- **Be consistent**. If you do something a certain way, do all similar things in the same way.
+- Consistency in naming, folder structure, API design, and coding patterns allows developers to navigate and extend codebases without constantly second-guessing themselves.
+- Follow **standard conventions** for your programming language (e.g., PEP 8 for Python, camelCase/snake_case usage, indentation).
+- Consider establishing and following **internal coding rules** or style guides for your organization.
+- Take **inspiration from open-source projects** for effective conventions.

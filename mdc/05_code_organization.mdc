@@ -1,0 +1,23 @@
+---
+description: Principles for organizing code within files and classes for readability and maintainability.
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- Separate concepts **vertically**.
+- Related code should appear **vertically dense**.
+- Declare variables **close to their usage**.
+- **Dependent functions** should be close to each other.
+- **Similar functions** should be close to each other.
+- Place functions in the **downward direction** (higher-level concepts/abstractions first, details later).
+- Keep lines **short**.
+- Don't use **horizontal alignment** (alignment).
+- Use **white space** to associate related things and disassociate weakly related ones.
+- Don't break **indentation**.
+- Keep components **small and focused**, avoiding files larger than ~200 lines (e.g., in React/TypeScript). Break them into smaller subcomponents.

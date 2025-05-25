@@ -1,0 +1,16 @@
+---
+description: Principles for writing small functions that do one thing (Single Responsibility Principle).
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- Prefer **fewer arguments** for functions.
+- Functions should **have no side effects**.
+- **Don't use flag arguments**. Instead, split the method into several independent methods that can be called by the client without the flag.
+- **Encapsulate nested conditionals** into separate functions with descriptive names to improve readability and clarity.

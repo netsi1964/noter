@@ -1,0 +1,22 @@
+---
+description: Standards for writing effective and minimal comments.
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+
+- Always try to **explain yourself in code** first. Code should be self-documenting through clear naming and structure.
+- Use comments **sparingly**.
+- Use comments as **explanation of intent** (the "why").
+- Use comments as **clarification of code** when the code is complex.
+- Use comments as **warning of consequences**.
+- **Don't be redundant**; avoid commenting on obvious things.
+- Don't add **obvious noise**.
+- Don't use **closing brace comments**.
+- **Don't comment out code**; just remove it.

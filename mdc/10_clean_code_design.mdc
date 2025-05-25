@@ -1,0 +1,22 @@
+---
+description: General design principles inspired by Clean Code, including encapsulation, composition, and dependency management.
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- Prefer **polymorphism** to if/else or switch/case statements.
+- Use **dependency injection**.
+- Follow the **Law of Demeter**: A class should know only its direct dependencies.
+- Prefer **Composition over Inheritance**. Composition is more flexible and makes systems easier to extend and modify.
+- **Hide internal structure** (Encapsulation).
+- Prefer **dedicated value objects** to primitive types.
+- The **base class should know nothing about its derivatives**.
+- Prefer **non-static methods** to static methods.
+- Objects/classes should be **small**, **do one thing**, and have a **small number of instance variables**.
+- Avoid **logical dependency** (methods depending on something else in the same class to work correctly).

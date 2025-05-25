@@ -1,0 +1,30 @@
+---
+description: Guidelines for secure and effective use of MCP servers in your project.
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.md"
+alwaysApply: false
+---
+- Always verify the trustworthiness and source of any MCP server before connecting or sending sensitive data.
+- Use environment variables or secure secrets management for credentials and tokens.
+- Document the purpose and endpoints of each MCP server used in your project.
+- Prefer using official or well-maintained MCP client libraries (e.g., mcptools, mcp-use, MCPX Python).
+- Log all automated actions performed via MCP for traceability.
+- Regularly update MCP client/server dependencies to patch security vulnerabilities.
+
+## Installation
+
+```sh
+# Python client example
+pip install mcptools
+
+# Node.js client example
+npm install -g mcp-use
+```
+
+## Settings
+
+- Store sensitive credentials in environment variables (e.g., `MCP_TOKEN`, `MCP_SERVER_URL`).
+- Document each MCP server's endpoint and purpose in your project README or a dedicated config file.
+- For advanced configuration, refer to the official documentation of the MCP client/server you are using.

@@ -1,0 +1,17 @@
+---
+description: Principles for writing small functions that do one thing (Single Responsibility Principle).
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- Keep functions **small**.
+- Functions should **only do one thing**. This follows the **Single Responsibility Principle (SRP)**.
+- A function doing only one thing makes it more understandable, readable, maintainable, and easier to test.
+- If a function becomes too long or complex, consider **breaking it into smaller, more manageable functions**.
+- Use **descriptive names** for functions that clearly convey their purpose and behavior.

@@ -1,0 +1,28 @@
+---
+description: Guidelines for managing tasks and workflows with MCP Task Master.
+globs:
+  - "**.**"
+alwaysApply: false
+---
+- Use Git MCP servers for automating repetitive repository tasks (e.g., PR checks, merges, branch cleanup).
+- Always review and test automation scripts in a safe environment before deploying to production.
+- Document all Git MCP server endpoints and their purposes.
+- Use access controls and permissions to restrict sensitive operations.
+- Log all automated Git actions for auditability.
+- Regularly update Git MCP server integrations to ensure compatibility and security.
+
+## Installation
+
+```sh
+# Example: Install Git MCP client
+npm install -g mcp-git
+```
+
+## Settings
+
+- Set the `MCP_GIT_TOKEN` environment variable with your access token.
+- Configure the server endpoint in `.env`:
+  ```
+  MCP_GIT_SERVER_URL=https://your-mcp-git-server.com
+  ```
+- For advanced settings, see the official documentation for your Git MCP server.

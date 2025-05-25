@@ -1,0 +1,17 @@
+---
+description: Principles for keeping code simple (KISS) and avoiding over-engineering (YAGNI).
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- Follow the **KISS (Keep It Simple, Stupid)** principle. Simpler is always better.
+- **Reduce complexity** as much as possible. Complexity increases mental load.
+- Ask yourself: Is there a simpler way? Could this function do less? Could this class have fewer responsibilities?
+- Follow **YAGNI (You Aren't Gonna Need It)**. Build only what you need right now.
+- **Avoid over-engineering** or coding for imaginary use cases that might never materialize. Premature architecture or optimization often adds unnecessary complexity.

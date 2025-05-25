@@ -1,0 +1,17 @@
+---
+description: Rule for using named constants instead of magic numbers or strings.
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- **Replace magic numbers and strings with named constants**.
+- Use constants with **meaningful names** that convey their purpose.
+- This improves clarity and makes the code easier to understand.
+- It makes code easier to modify, as changes only require modifying the constant declaration.
+- Avoid encodings or appending prefixes/type information to names.

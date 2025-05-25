@@ -1,0 +1,30 @@
+---
+description: Usage notes for integrating and maintaining Context7 libraries and configurations.
+globs: 
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: true
+---
+- Use Context7-compatible library IDs for all documentation and code search integrations.
+- Prefer official Context7 libraries for code search and documentation queries.
+- Document any custom Context7 queries or integrations in your project README.
+- Regularly review and update Context7 rules to match evolving project needs.
+- Avoid overloading Context7 with unnecessary or redundant rules.
+
+## Installation
+
+```sh
+# Example: Install Context7 CLI
+npm install -g context7
+```
+
+## Settings
+
+- Set the `CONTEXT7_API_KEY` environment variable for authentication.
+- Configure default library IDs and search topics in your project config or `.env` file.
+- Refer to the Context7 documentation for advanced usage and integration options.

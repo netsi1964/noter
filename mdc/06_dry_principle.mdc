@@ -1,0 +1,49 @@
+---
+description: Guidelines to avoid needless repetition (DRY principle).
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- Follow the **DRY (Don't Repeat Yourself)** principle.
+- **Duplication multiplies mistakes**. If logic exists in multiple places, changes risk inconsistency and bugs.
+- **Consolidate logic**; when multiple places need the same logic, extract it once and reuse it using functions, classes, modules, or other abstractions.
+- Reusing code makes it more efficient, consistent, and maintainable.
+- Reduces the risk of errors and bugs as you only need to modify code in one place.
+
+---
+
+### Example
+
+**Before (not DRY):**
+```javascript
+const total1 = price1 + (price1 * 0.25);
+const total2 = price2 + (price2 * 0.25);
+```
+
+**After (DRY):**
+```javascript
+function calculateTotalWithTax(price) {
+  return price + (price * 0.25);
+}
+const total1 = calculateTotalWithTax(price1);
+const total2 = calculateTotalWithTax(price2);
+```
+
+---
+
+### Note
+
+> 📌 *Excessive use of DRY can lead to "over-abstraction", which can make code harder to understand and maintain. Use with care.*
+
+---
+
+### Further Reading
+
+- "The Pragmatic Programmer" by Hunt and Thomas
+- https://en.wikipedia.org/wiki/Don%27t_repeat_yourself

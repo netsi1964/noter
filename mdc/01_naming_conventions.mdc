@@ -1,0 +1,23 @@
+---
+description: Guidelines for choosing clear, descriptive, and consistent names for variables, functions, and classes.
+globs:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.py"
+  - "**/*.java"
+  - "**/*.cs"
+alwaysApply: false
+---
+- **Choose descriptive and unambiguous names** that clearly tell you what the variable, function, or class is for.
+- The name should not require you to dig through the code to understand its purpose.
+- Provide enough **context** if it helps clarify intent.
+- Avoid **vague or overly broad names** like `data`.
+- Avoid names that are **missing key information**, like a function named `process(input)` without specifying what is processed or how.
+- The name should **match the actual meaning** in your domain or tech stack. Use terms correctly; for example, use "Generator" when creating something, not "Mapper".
+- If you have similar things, give them **clear, specific names** to distinguish them.
+- Keep your **method names uniform** and stick to **consistent patterns** (e.g., pick `get` or `fetch`, don't mix them). Consistency reduces mental overhead.
+- Use **pronounceable names**.
+- Use **searchable names**.
+- A name should tell **why it exists, what it does, and how it is used**.

@@ -1,0 +1,24 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+- Ensure all tasks have clear, descriptive titles and acceptance criteria.
+- Use unique IDs for tasks and subtasks to avoid confusion.
+- Document dependencies between tasks explicitly.
+- Regularly sync task status between MCP server and local project files.
+- Archive or delete completed/cancelled tasks to keep the task list clean.
+- Use version control for task definitions and scripts.
+
+## Installation
+
+```sh
+# Example: Install Task Master MCP client
+pip install taskmaster-mcp
+```
+
+## Settings
+
+- Set the `TASKMASTER_MCP_URL` environment variable to your MCP task server endpoint.
+- Store authentication tokens in a secure `.env` file or environment variable (e.g., `TASKMASTER_MCP_TOKEN`).
+- Document any custom task fields or workflows in your project documentation.
