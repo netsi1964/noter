@@ -16,6 +16,7 @@ Below is a list of preferred MCP servers you can configure in your global `mcp.j
     npx -y @modelcontextprotocol/server-puppeteer
     ```
   - **Notes:** No API key required.
+  - **More info:** See [mcp_server_usage.mdc](../mdc/mcp_server_usage.mdc)
 
 ---
 
@@ -26,6 +27,7 @@ Below is a list of preferred MCP servers you can configure in your global `mcp.j
     npx -y tavily-mcp@0.1.3
     ```
   - **Notes:** Requires `TAVILY_API_KEY` in your environment.
+  - **More info:** See [mcp_context7_usage.mdc](../mdc/mcp_context7_usage.mdc)
 
 ---
 
@@ -36,6 +38,7 @@ Below is a list of preferred MCP servers you can configure in your global `mcp.j
     docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server
     ```
   - **Notes:** Requires `GITHUB_PERSONAL_ACCESS_TOKEN`. Runs via Docker. [Read more](https://github.com/github/github-mcp-server?tab=readme-ov-file)
+  - **More info:** See [mcp_git_usage.mdc](../mdc/mcp_git_usage.mdc)
 
 ---
 
@@ -46,6 +49,7 @@ Below is a list of preferred MCP servers you can configure in your global `mcp.j
     npx -y --package=task-master-ai task-master-ai
     ```
   - **Notes:** Requires `ANTHROPIC_API_KEY` and `PERPLEXITY_API_KEY`. Supports model and subtask config in environment.
+  - **More info:** See [mcp_task_management.mdc](../mdc/mcp_task_management.mdc)
 
 ---
 
@@ -56,6 +60,7 @@ Below is a list of preferred MCP servers you can configure in your global `mcp.j
     npx -y @upstash/context7-mcp@latest
     ```
   - **Notes:** No API key required for basic use.
+  - **More info:** See [mcp_context7_usage.mdc](../mdc/mcp_context7_usage.mdc)
 
 ---
 
